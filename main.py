@@ -1,4 +1,4 @@
-from TestClass import StringPlayer
+from TestClass import Practice
 
 
 def bubbleSort(myList=[]):
@@ -15,7 +15,7 @@ def addNumber(num1, num2):
     return sum
 
 
-test = StringPlayer("Bryan", 100, 250)
+test = Practice("Bryan", 100, 250)
 print(test.sum())
 
 num1 = 300
@@ -40,12 +40,23 @@ while sum < 100:
     if sum < 100:
         print(sum)
 
+sum = 0
+i = 0
+print("while looping using list")
+while sum < 100:
+    sum += list[i]
+    i += 1
+    if sum < 100:
+        print(sum)
+
+print(test.getName())
+print(test.reverse())
 
 
 
 
 
-print('hello world')
+
 
 
 
