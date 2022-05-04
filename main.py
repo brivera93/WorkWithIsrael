@@ -15,8 +15,8 @@ def addNumber(num1, num2):
     return sum
 
 
-test = Practice("Bryan", 100, 250)
-print(test.sum())
+# test = Practice("Bryan", 100, 250)
+# print(test.sum())
 
 num1 = 300
 num2 = 200
@@ -32,32 +32,59 @@ num2 = 200
 # for var in list:
 #     print(var)
 
-list = 20, 30, 10, 25, 5, 15, 70
-sum = 0
+# example of tuple
+numArray = 20, 30, 10, 5, 15, 70
 
-while sum < 100:
-    sum += 23
-    if sum < 100:
-        print(sum)
+# setArray = {1, 1, 2, 2, 3, 4, 5}
+# print(setArray)
 
-sum = 0
-i = 0
-print("while looping using list")
-while sum < 100:
-    sum += list[i]
-    i += 1
-    if sum < 100:
-        print(sum)
+#
+# # example of list
+# listArray = [1, 23, 94, 23]
+# for var in listArray:
+#     print(var)
+#
+# listArray.insert(1, 1000)
+# # listArray.__add__(2000)
+# listArray.remove(94)
+# for var in listArray:
+#     print(var)
 
-print(test.getName())
-print(test.reverse())
+# print(type(numArray))
+# print("25 exists in list") if 25 in numArray else print("25 dne in list")
 
+# while sum < 100:
+#     sum += 23
+#     if sum < 100:
+#         print(sum)
+#
+# sum = 0
+# i = 0
+# print("while looping using list")
+# while sum < 100:
+#     sum += numArray[i]
+#     i += 1
+#     if sum < 100:
+#         print(sum)
 
+# print(test.getName())
+# print(test.reverse())
 
+# dictionary examples
 
-
-
-
+# peopleAges = dict(Bryan=28, Ana=21, Felipe=99, Jasmyn=12)
+# print(peopleAges)
+# peopleAges.update(Bryan=101)
+# print(peopleAges)
+# peopleAges['Israel'] = 93
+# print(peopleAges)
+# peopleAges.pop('Felipe')
+# print(peopleAges)
+# peopleAges.popitem()
+# print(peopleAges)
+#
+# dictCopy = peopleAges.copy()
+# print(dictCopy)
 
 
 # lingo = "bingo"
@@ -105,3 +132,9 @@ print(test.reverse())
 # print(listy[number])
 # print(number)
 # print("")
+
+val = input("Enter input 0-6")
+print(val)
+
+
+
